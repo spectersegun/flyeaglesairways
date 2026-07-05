@@ -1,0 +1,99 @@
+/* ---- Reset & base ---- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #f4f0e8;
+  color: #211e1a;
+  font-family: var(--font-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+.serif {
+  font-family: var(--font-serif), Georgia, serif;
+}
+
+::selection {
+  background: #a8875a;
+  color: #f4f0e8;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+/* ---- Carousel ---- */
+.gallery-viewport {
+  overflow: hidden;
+}
+.gallery-track {
+  display: flex;
+  gap: 14px;
+  will-change: transform;
+}
+
+/* ---- Mobile-first responsive: single breakpoint at 768px ---- */
+@media (max-width: 768px) {
+  .ea-pad {
+    padding-left: 22px !important;
+    padding-right: 22px !important;
+  }
+  .ea-section {
+    padding-top: 72px !important;
+    padding-bottom: 72px !important;
+    padding-left: 22px !important;
+    padding-right: 22px !important;
+  }
+  .ea-hero {
+    grid-template-columns: 1fr !important;
+    min-height: auto !important;
+  }
+  .ea-hero-text {
+    padding: 60px 22px 44px !important;
+  }
+  .ea-hero-img {
+    min-height: 420px !important;
+  }
+  .ea-services {
+    grid-template-columns: 1fr !important;
+  }
+  .ea-services > div {
+    padding: 32px 0 !important;
+    border-right: none !important;
+  }
+  .ea-fleet {
+    grid-template-columns: 1fr !important;
+  }
+  .ea-fleet-img {
+    min-height: 380px !important;
+  }
+  .ea-fleet-text {
+    padding: 64px 22px !important;
+  }
+  .ea-contact {
+    grid-template-columns: 1fr !important;
+    gap: 44px !important;
+  }
+  .ea-navlinks a {
+    display: none !important;
+  }
+  .ea-modal {
+    padding: 44px 22px 32px !important;
+  }
+  .ea-jetgrid {
+    grid-template-columns: 1fr !important;
+  }
+}
