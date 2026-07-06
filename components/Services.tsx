@@ -69,7 +69,7 @@ export default function Services() {
             >
               <div
                 className="serif"
-                style={{ fontSize: 20, color: "#A8875A", marginBottom: 18 }}
+                style={{ fontSize: 20, color: "#9EA300", marginBottom: 18 }}
               >
                 {s.n}
               </div>

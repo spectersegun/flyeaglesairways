@@ -1,11 +1,11 @@
-import Logo from "./Logo";
+import Image from "next/image";
 
 export default function Footer() {
   return (
     <footer
       className="ea-pad"
       style={{
-        background: "#211E1A",
+        background: "#5C2D91",
         color: "#B8B0A0",
         padding: "56px 72px",
         display: "flex",
@@ -15,12 +15,15 @@ export default function Footer() {
         gap: 20,
       }}
     >
-      <div style={{ display: "flex", alignItems: "center", gap: 13, color: "#F4F0E8" }}>
-        <Logo size={38} />
-        <span style={{ fontSize: 13, letterSpacing: "4.5px" }}>EAGLE AIRWAYS</span>
-      </div>
+      <Image
+        src="/images/logo-light.png"
+        alt="Eagle Airways"
+        width={115}
+        height={64}
+        style={{ height: 64, width: "auto" }}
+      />
       <div style={{ fontSize: 12, letterSpacing: "1px", color: "#8F887A" }}>
-        flyeagleairways.com · info@flyeaglesairways.com · © 2026 Eagle Airways
+        flyeagleairways.com · destinybook2026@gmail.com · © 2026 Eagle Airways
       </div>
     </footer>
   );

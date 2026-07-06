@@ -27,7 +27,7 @@ export default function Contact() {
               fontSize: 11,
               letterSpacing: "4px",
               textTransform: "uppercase",
-              color: "#A8875A",
+              color: "#9EA300",
               marginBottom: 26,
             }}
           >
@@ -68,7 +68,7 @@ export default function Contact() {
               border: "none",
               cursor: "pointer",
               color: "#F4F0E8",
-              background: "#211E1A",
+              background: "#5C2D91",
               fontSize: 12,
               letterSpacing: "1.5px",
               textTransform: "uppercase",
@@ -88,14 +88,14 @@ export default function Contact() {
             }}
           >
             <a
-              href="mailto:info@flyeaglesairways.com"
+              href="mailto:destinybook2026@gmail.com"
               style={{
                 color: "#5A5346",
                 textDecoration: "none",
                 borderBottom: "1px solid rgba(33,30,26,0.25)",
               }}
             >
-              info@flyeaglesairways.com
+              destinybook2026@gmail.com
             </a>
             <br />
             <a
@@ -154,6 +154,30 @@ export default function Contact() {
             <br />
             Available around the clock
           </div>
+          <div
+            style={{
+              marginTop: 22,
+              fontSize: 11,
+              letterSpacing: "2px",
+              textTransform: "uppercase",
+              color: "#8A8375",
+            }}
+          >
+            Telephone
+          </div>
+          <a
+            href="tel:+2348183260000"
+            className="serif"
+            style={{
+              display: "inline-block",
+              marginTop: 8,
+              fontSize: 22,
+              color: "#5C2D91",
+              textDecoration: "none",
+            }}
+          >
+            +234 818 326 0000
+          </a>
         </div>
       </div>
     </section>
