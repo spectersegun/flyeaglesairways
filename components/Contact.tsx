@@ -166,7 +166,7 @@ export default function Contact() {
             Telephone
           </div>
           <a
-            href="tel:+2348183260000"
+            href="tel:+2349111290000"
             className="serif"
             style={{
               display: "inline-block",
@@ -176,7 +176,7 @@ export default function Contact() {
               textDecoration: "none",
             }}
           >
-            +234 818 326 0000
+            +234 911 129 0000
           </a>
         </div>
       </div>
