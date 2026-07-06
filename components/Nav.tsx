@@ -1,6 +1,6 @@
 "use client";
 
-import Logo from "./Logo";
+import Image from "next/image";
 import { useBooking } from "./booking-context";
 
 const linkStyle: React.CSSProperties = {
@@ -33,16 +33,20 @@ export default function Nav() {
         href="#top"
         style={{
           textDecoration: "none",
-          color: "#211E1A",
+          color: "#5C2D91",
           display: "flex",
           alignItems: "center",
           gap: 13,
         }}
       >
-        <Logo size={40} />
-        <span style={{ fontSize: 13, letterSpacing: "4.5px", fontWeight: 400 }}>
-          EAGLE AIRWAYS
-        </span>
+        <Image
+          src="/images/logo.png"
+          alt="Eagle Airways"
+          width={97}
+          height={54}
+          priority
+          style={{ height: 54, width: "auto" }}
+        />
       </a>
       <div
         className="ea-navlinks"
@@ -69,7 +73,7 @@ export default function Nav() {
             border: "none",
             cursor: "pointer",
             color: "#F4F0E8",
-            background: "#211E1A",
+            background: "#5C2D91",
             fontSize: 12,
             letterSpacing: "1.5px",
             textTransform: "uppercase",

@@ -8,7 +8,7 @@ export default function Footprint() {
           fontSize: 11,
           letterSpacing: "4px",
           textTransform: "uppercase",
-          color: "#A8875A",
+          color: "#9EA300",
           marginBottom: 28,
         }}
       >

@@ -4,7 +4,7 @@ export default function Fleet() {
   return (
     <section
       id="fleet"
-      style={{ background: "#1B1915", color: "#EFE9DC", marginTop: 120 }}
+      style={{ background: "#5C2D91", color: "#EFE9DC", marginTop: 120 }}
     >
       <div
         className="ea-fleet"
@@ -15,7 +15,7 @@ export default function Fleet() {
           style={{ position: "relative", width: "100%", minHeight: 580 }}
         >
           <Image
-            src="/images/jet-604.jpeg"
+            src="/images/fleet-main.png"
             alt="Gulfstream cream-leather cabin"
             fill
             sizes="(max-width: 768px) 100vw, 50vw"
@@ -36,7 +36,7 @@ export default function Fleet() {
               fontSize: 11,
               letterSpacing: "4px",
               textTransform: "uppercase",
-              color: "#A8875A",
+              color: "#9EA300",
               marginBottom: 30,
             }}
           >

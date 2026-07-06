@@ -15,7 +15,7 @@ export default function Ethos() {
           fontSize: 11,
           letterSpacing: "4px",
           textTransform: "uppercase",
-          color: "#A8875A",
+          color: "#9EA300",
           marginBottom: 34,
         }}
       >
@@ -37,7 +37,7 @@ export default function Ethos() {
         back to the communities that raised them.
       </p>
       <div
-        style={{ width: 44, height: 1, background: "#A8875A", margin: "52px auto 0" }}
+        style={{ width: 44, height: 1, background: "#9EA300", margin: "52px auto 0" }}
       />
     </section>
   );

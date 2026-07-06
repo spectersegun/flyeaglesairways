@@ -75,7 +75,7 @@ export default function CabinCarousel() {
     borderRadius: "50%",
     border: "1px solid rgba(33,30,26,0.18)",
     background: "#F4F0E8",
-    color: "#211E1A",
+    color: "#5C2D91",
     fontFamily: "var(--font-serif), Georgia, serif",
     fontSize: 26,
     lineHeight: 1,
@@ -95,7 +95,7 @@ export default function CabinCarousel() {
             fontSize: 11,
             letterSpacing: "4px",
             textTransform: "uppercase",
-            color: "#A8875A",
+            color: "#9EA300",
             marginBottom: 26,
           }}
         >

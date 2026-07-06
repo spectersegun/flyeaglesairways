@@ -57,4 +57,4 @@ Only the interactive pieces are client components; everything else is a Server C
 - Contact email `info@flyeaglesairways.com` (with an "s") and site `flyeagleairways.com` (no "s") are used exactly as provided — align them if that's a typo.
 - Nav links are hidden below 768px (the prototype's behavior). Consider adding a hamburger menu that exposes them — a good next task.
 - All copy, colors, and type match the design; see `../README.md` for the full spec.
-# flyeaglesairways
+# flyeaglesairways2

@@ -25,7 +25,7 @@ export default function Hero() {
             fontSize: 11,
             letterSpacing: "4px",
             textTransform: "uppercase",
-            color: "#A8875A",
+            color: "#9EA300",
             marginBottom: 34,
           }}
         >
@@ -65,7 +65,7 @@ export default function Hero() {
               border: "none",
               cursor: "pointer",
               color: "#F4F0E8",
-              background: "#211E1A",
+              background: "#5C2D91",
               fontSize: 12,
               letterSpacing: "1.5px",
               textTransform: "uppercase",
@@ -79,7 +79,7 @@ export default function Hero() {
             href="#services"
             style={{
               textDecoration: "none",
-              color: "#211E1A",
+              color: "#5C2D91",
               fontSize: 12,
               letterSpacing: "1.5px",
               textTransform: "uppercase",

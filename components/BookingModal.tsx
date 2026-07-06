@@ -85,7 +85,7 @@ export default function BookingModal() {
             fontSize: 11,
             letterSpacing: "4px",
             textTransform: "uppercase",
-            color: "#A8875A",
+            color: "#9EA300",
             marginBottom: 14,
           }}
         >
@@ -149,7 +149,7 @@ export default function BookingModal() {
                     border: "none",
                     cursor: "pointer",
                     color: "#F4F0E8",
-                    background: "#211E1A",
+                    background: "#5C2D91",
                     fontSize: 12,
                     letterSpacing: "1.5px",
                     textTransform: "uppercase",

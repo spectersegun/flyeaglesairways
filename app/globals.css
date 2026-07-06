@@ -12,7 +12,7 @@ html {
 body {
   margin: 0;
   background: #f4f0e8;
-  color: #211e1a;
+  color: #5C2D91;
   font-family: var(--font-sans), system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
@@ -23,7 +23,7 @@ body {
 }
 
 ::selection {
-  background: #a8875a;
+  background: #9EA300;
   color: #f4f0e8;
 }
 

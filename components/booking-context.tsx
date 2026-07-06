@@ -45,7 +45,7 @@ export function jetMailto(jet: string) {
     "Additional notes:",
     "",
   ].join("\n");
-  return `mailto:info@flyeaglesairways.com?subject=${encodeURIComponent(
+  return `mailto:destinybook2026@gmail.com?subject=${encodeURIComponent(
     subject
   )}&body=${encodeURIComponent(body)}`;
 }

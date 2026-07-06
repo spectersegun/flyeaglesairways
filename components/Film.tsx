@@ -148,7 +148,7 @@ export default function Film() {
     <section
       id="film"
       className="ea-section"
-      style={{ background: "#1B1915", color: "#EFE9DC", padding: "120px 72px" }}
+      style={{ background: "#5C2D91", color: "#EFE9DC", padding: "120px 72px" }}
     >
       <div style={{ maxWidth: 1080, margin: "0 auto" }}>
         <div
@@ -167,7 +167,7 @@ export default function Film() {
                 fontSize: 11,
                 letterSpacing: "4px",
                 textTransform: "uppercase",
-                color: "#A8875A",
+                color: "#9EA300",
                 marginBottom: 26,
               }}
             >
