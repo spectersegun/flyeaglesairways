@@ -29,7 +29,7 @@ export default function Hero() {
             marginBottom: 34,
           }}
         >
-          Private Aviation · Lagos · London · New York
+          Private Aviation · From Lagos to Every Continent
         </div>
         <h1
           className="serif"
