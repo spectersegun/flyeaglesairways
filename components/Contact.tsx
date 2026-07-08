@@ -133,11 +133,15 @@ export default function Contact() {
           >
             Eagle Airways
             <br />
-            Suite A86, NAF Office Complex
+            Suite A86
             <br />
-            International &amp; Local Airport Road
+            NAF Office Complex
             <br />
-            Ikeja, Lagos, Nigeria
+            International and Local Airport Road
+            <br />
+            Ikeja,
+            <br />
+            Lagos.
           </address>
           <div
             style={{

@@ -6,7 +6,7 @@ import Services from "@/components/Services";
 import CabinCarousel from "@/components/CabinCarousel";
 import Film from "@/components/Film";
 import Fleet from "@/components/Fleet";
-import Footprint from "@/components/Footprint";
+import Destinations from "@/components/Destinations";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import BookingModal from "@/components/BookingModal";
@@ -22,7 +22,7 @@ export default function Home() {
         <CabinCarousel />
         <Film />
         <Fleet />
-        <Footprint />
+        <Destinations />
         <Contact />
       </main>
       <Footer />

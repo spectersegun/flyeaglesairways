@@ -42,10 +42,10 @@ export default function Nav() {
         <Image
           src="/images/logo.png"
           alt="Eagle Airways"
-          width={97}
+          width={111}
           height={54}
           priority
-          style={{ height: 54, width: "auto" }}
+          style={{ height: 44, width: "auto" }}
         />
       </a>
       <div
@@ -66,6 +66,9 @@ export default function Nav() {
         </a>
         <a href="#fleet" style={linkStyle}>
           Fleet
+        </a>
+        <a href="#destinations" style={linkStyle}>
+          Destinations
         </a>
         <button
           onClick={openBooking}

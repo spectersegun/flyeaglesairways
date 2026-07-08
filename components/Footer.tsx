@@ -18,9 +18,9 @@ export default function Footer() {
       <Image
         src="/images/logo-light.png"
         alt="Eagle Airways"
-        width={115}
-        height={64}
-        style={{ height: 64, width: "auto" }}
+        width={106}
+        height={52}
+        style={{ height: 52, width: "auto" }}
       />
       <div style={{ fontSize: 12, letterSpacing: "1px", color: "#8F887A" }}>
         flyeagleairways.com · destinybook2026@gmail.com · © 2026 Eagle Airways
