@@ -88,14 +88,14 @@ export default function Contact() {
             }}
           >
             <a
-              href="mailto:destinybook2026@gmail.com"
+              href="mailto:info@flyeagleairways.com"
               style={{
                 color: "#5A5346",
                 textDecoration: "none",
                 borderBottom: "1px solid rgba(33,30,26,0.25)",
               }}
             >
-              destinybook2026@gmail.com
+              info@flyeagleairways.com
             </a>
             <br />
             <a

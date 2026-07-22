@@ -23,7 +23,7 @@ export default function Footer() {
         style={{ height: 52, width: "auto" }}
       />
       <div style={{ fontSize: 12, letterSpacing: "1px", color: "#8F887A" }}>
-        flyeagleairways.com · destinybook2026@gmail.com · © 2026 Eagle Airways
+        flyeagleairways.com · info@flyeagleairways.com · © 2026 Eagle Airways
       </div>
     </footer>
   );
